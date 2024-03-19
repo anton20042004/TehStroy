@@ -22,11 +22,11 @@
                 }
                 .slider_text_box{
                     .first_text{
-                        color: #fff;
+                        color: #fff !important;
                         font-family: $open;
                     }
                     .secand_text{
-                        color: $baseColor;
+                        color: #ff0000 !important;
                         text-transform: uppercase;
                         font-weight: bold !important;
                         font-family: $pt;
@@ -34,7 +34,7 @@
                 }
                 .slider_text_box2{
                     .first_text{
-                        color: $baseColor;
+                        color: $dip;
                         text-transform: uppercase;
                         font-weight: bold !important;
                         font-family: $pt;

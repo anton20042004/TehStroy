@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="{% static 'img/logo-TehStroy.png'%}" type="image/x-icon" />
+        <link rel="icon" href="{% static 'img/icon-TehStroy.png'%}" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Проекты</title>
 
@@ -93,10 +93,10 @@
 <!--                                    </ul>-->
                                 </li>
                                 <li><a href="{% url 'services'%}">Услуги</a></li>
-                                <li><a href="#">about us</a></li>
-                                <li><a href="blog-details.html">blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>
+                                <li><a href="#">О нас</a></li>
+<!--                                <li><a href="blog-details.html">blog</a></li>-->
+                                <li><a href="#">Контакты</a></li>
+<!--                                <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>-->
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </nav>
@@ -342,7 +342,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{% static 'js/jquery-2.2.4.js'%}"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="{% static 'js/bootstrap.min.js'%}"></script>
         <!-- Rev slider js -->
         <script src="{% static 'vendors/revolution/js/jquery.themepunch.tools.min.js'%}"></script>
         <script src="{% static 'vendors/revolution/js/jquery.themepunch.revolution.min.js'%}"></script>
